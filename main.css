@@ -40,12 +40,12 @@ a:hover {
     text-decoration: none;
 }
 
-#Resume a {
+#Home a {
     color: #424242;
     border-bottom: 1px dotted #f0ad41;
 }
 
-#Resume a:hover {
+#Home a:hover {
     /*text-decoration: none;*/
     color: #f0ad41;
 }
