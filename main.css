@@ -3,24 +3,11 @@
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a:nth-child(1) {
-    float: left;
-    display: block;
-    color: #424242;
-    text-align: center;
-    padding: 40px 0px;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 900;
-    font-family: 'Muli', sans-serif;
-    letter-spacing: 1px;
-}
 
-.topnav a:nth-child(n+2):nth-child(-n+5) {
+.topnav a:nth-child(n):nth-child(n) {
     float: right;
     display: block;
-    color: #666666;
+    color: #454444;
     text-align: center;
     padding: 50px 16px;
     text-decoration: none;
@@ -29,26 +16,15 @@
     font-weight: 500;
 }
 
-
-
 /* Change the color of links on hover */
-.topnav a:nth-child(n+2):nth-child(-n+5):hover {
-    color: #f0ad41;
+.topnav a:nth-child(n):nth-child(n):hover {
+    color: #ababab;
 }
 
 a:hover {
     text-decoration: none;
 }
 
-#Home a {
-    color: #424242;
-    border-bottom: 1px dotted #f0ad41;
-}
-
-#Home a:hover {
-    /*text-decoration: none;*/
-    color: #f0ad41;
-}
 
 
 body {
