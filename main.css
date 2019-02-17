@@ -1,29 +1,55 @@
-/* Add a black background color to the top navigation */
+/*---------------nav---------------*/
 .topnav {
-    background-color: #white;
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.topnav a:nth-child(1) {
+    float: left;
+    display: block;
+    color: #424242;
+    text-align: center;
+    padding: 40px 0px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 1px;
 }
+
+.topnav a:nth-child(n+2):nth-child(-n+5) {
+    float: right;
+    display: block;
+    color: #666666;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+}
+
+
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.topnav a:nth-child(n+2):nth-child(-n+5):hover {
+    color: #f0ad41;
 }
 
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
+a:hover {
+    text-decoration: none;
 }
+
+#Resume a {
+    color: #424242;
+    border-bottom: 1px dotted #f0ad41;
+}
+
+#Resume a:hover {
+    /*text-decoration: none;*/
+    color: #f0ad41;
+}
+
 
 body {
   background-color: white;
